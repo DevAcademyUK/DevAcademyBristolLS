@@ -1,7 +1,7 @@
 package songs;
 import java.util.Scanner;
 
-public class singSongs
+public class SingSongs
 {
     private void sing () {
         Scanner myScanner = new Scanner(System.in);
@@ -30,7 +30,7 @@ public class singSongs
 
     public static void main(String[] args)
     {
-        singSongs singing = new singSongs();
+        SingSongs singing = new SingSongs();
         singing.sing();
 
     }
