@@ -52,10 +52,6 @@ public class SingDucks {
             }
         }
 
-            public static void main(String[] args) {
-                SingDucks singing = new SingDucks();
-                singing.singMyVersion();
 
-            }
         }
 

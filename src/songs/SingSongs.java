@@ -28,10 +28,4 @@ public class SingSongs
         }
     }
 
-    public static void main(String[] args)
-    {
-        SingSongs singing = new SingSongs();
-        singing.sing();
-
-    }
 }
