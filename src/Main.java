@@ -1,12 +1,8 @@
-import animals.Cat;
-import animals.Dog;
-import songs.SingDucks;
+import assignment.Cashpoint;
 
 public class Main {
     public static void main(String[] args) {
-
-        Cat tom = new Cat("Tom", "big", 3);
-System.out.println(tom.catchMouse());
-
+        Cashpoint cashpoint = new Cashpoint();
+        cashpoint.init();
     }
 }
